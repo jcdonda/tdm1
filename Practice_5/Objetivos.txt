@@ -1,0 +1,12 @@
+En esta práctica se presenta a los alumnos un modelo vhdl de reloj de 24h, a partir del registro con carga
+paralelo CD4RLE. Se les mostrará el funcionamiento del mismo y deberán completar el módulo relojydisplay y reloj24h.
+ Se les enseñará a emplear el timing analizer. 
+
+Tareas:
+
+1.-Completar el código del reloj e implementarlo en placa. Comprobar el correcto funcionamiento.
+2.-Realizar una simulación post-rutado con el contador reducido.
+3.-Comprobar el camino crítico empleando el timing analyzer
+
+4.-PARA NOTA: Para mejorar la apariencia del reloj, ilumine el punto del dígito tercero (empezando por la derecha)
+de forma permanente, y el punto del dígito primero, de forma intermitente indicando los intervalos de un segundo.

@@ -1,0 +1,20 @@
+
+OBJETIVOS
+
+En esta práctica se pretende ampliar el reloj desarrollado en la práctica 5 de forma que pueda presentar la hora en formato 12h o 24h, en
+función del valor asignado al pin "mode" (que correponderá al interruptor "0"). En esta práctica también se mostrará el uso de la herramienta
+Xpower para la estimación de potencia consumida en la FPGA.
+
+
+TAREAS A REALIZAR
+
+1.-El alumno deberá completar el código de forma que permita el funcionamiento en dicha forma, actualizando
+la hora automáticamente al cambiar en cualquier momento el valor del pin "mode". 
+
+2.- El alumno deba de comprobar el consuma del diseño empleando el XPower, configurándolo para la frecuencia de trabajo.
+
+PARA NOTA:
+
+3.- El alumno añadirá al diseño una alarma que podrá activarse o desactivarse mediante el interuptor SW1. La hora de la alarma estará prefijada 
+a las 00:01 ó las 12:01 am en función del modo 12 o 24 h. La activación de la alarma provocará que los led 7 y 6 parpadeen alternadamente 
+durante 1 minuto hasta las 00:02 ó 12:02 am.

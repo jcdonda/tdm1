@@ -1,0 +1,9 @@
+El alumno aprenderá en esta práctica a crear un esquemático a partir de especificaciones en VHDL de la estructura
+contadora empleada en la práctica anterior. Se le enseñará a crear el esquemático con un único contador, así como a
+especificar restricciones temporales de periodo de reloj, retardo clk to pad (offset out) y pad to setup (offset in).
+
+TAREAS:
+
+1.-El alumno deberá repetir el esquemático para el caso de dos contadores (creciente y decreciente) igual que en la práctica 3.2 e imponer las restricciones temporales y de pines analizando los resultados.
+
+2.-Comprobar para cada una de las restricciones temporales impuestas (periodo, offset in y Offset Out) los caminos críticos del circuito, así como el margen disponible.

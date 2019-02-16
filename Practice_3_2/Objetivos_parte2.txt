@@ -1,0 +1,10 @@
+TAREAS:
+
+
+1.- A partir del diseño del contador realizado en la práctica anterior (3.1), realice las modificaciones necesarias para que implemente dos contadores de 4 bit. Ambos incluiran un parámetro INC que determinará el incremento del contador en cada flanco de reloj y funcionarán de forma de forma inversa en relación a la señal direction, uno incrementando y el otro decrementando. Al cambiar el valor de direction los papeles se invertirán. Ambos mostraránlas cuentas de cada contador en grupos de 4 led, y cada contador verá representado también su valor en hexadecimal repetido en dos dígitos del display 7 segmentos. Realice la simulación post-rutado del diseño realizado.
+
+2.-Implemente en placa y demuestre su correcto funcionamiento.
+
+3.-(PARA NOTA): A partir del diseño del contador realizado en la práctica anterior (3.1), realice las modificaciones necesarias
+para que en el display de 7 segmentos el valor de la cuenta se vaya desplazando tras cada cambio de la misma una 
+posición a la izquierda. El dígito más hacia la derecha deberá tener siempre el valor actual de la cuenta.

@@ -1,0 +1,18 @@
+En esta práctica se pretende que el alumno aprenda a implementar un diseño en la placa de pruebas Pegasus.
+
+Para ello, se presentará el ejemplo de un contador de 4 bit que mostrará los resultados a la vez en los led y en
+ los 4 dígitos del display 7 segmentos (en hexadecimal, y repetido el mismo valor de cuenta para cada uno de los dígitos). Este ejemplo se simulará,
+se le impondrá restricciones de posicionado de pines y se pasará a implementarlo en la placa.
+
+Las tareas a realizar en esta práctica son:
+
+1.-Completar la instancia de MUX7SEG y generación de COUNT_OUT en módulo CONTALED7SEG.
+2.-Realizar la simulación vhdl del código desde el entorno de Xilinx completando el fichero de estímulos .udo.
+3.-Completar las rectricciones de posicionado de pines relativas a count_out, dirección y reset 
+4.-Implementar en la placa
+5.-Corregir el contador del ánodo para que se visualice correctamente
+6.-Corregir errores adicionales y comprobar correcto funcionamiento
+
+Para NOTA: 
+
+7.-Añadir al contador señales de enable (1 bit) e inc (2 bit). Inc definirá los incrementos de cuenta en cada salto de contador. Ajuste el contador para que la cuenta avance una vez por segundo.
